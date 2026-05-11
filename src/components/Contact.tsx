@@ -6,7 +6,7 @@ import { Mail, Phone, MapPin, Send, Github, Linkedin, Twitter } from 'lucide-rea
 
 const Contact = () => {
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, threshold: 0.1 });
+  const isInView = useInView(ref, { once: true, amount: 0.1 });
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -30,26 +30,26 @@ const Contact = () => {
     {
       icon: Mail,
       label: 'Email',
-      value: 'hello@codreon.com',
-      href: 'mailto:hello@codreon.com'
+      value: 'codreontech@gmail.com',
+      href: 'mailto:codreontech@gmail.com'
     },
     {
       icon: Phone,
       label: 'Phone',
-      value: '+1 (555) 123-4567',
-      href: 'tel:+15551234567'
+      value: '+92 3190448775',
+      href: 'tel:+923190448775'
     },
     {
       icon: MapPin,
       label: 'Location',
-      value: 'San Francisco, CA',
+      value: 'Pakistan - Bahawalpur',
       href: '#'
     }
   ];
 
   const socialLinks = [
     { icon: Github, href: '#', label: 'GitHub' },
-    { icon: Linkedin, href: '#', label: 'LinkedIn' },
+    { icon: Linkedin, href: 'https://www.linkedin.com/in/codreon', label: 'LinkedIn' },
     { icon: Twitter, href: '#', label: 'Twitter' }
   ];
 

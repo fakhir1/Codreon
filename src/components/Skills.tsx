@@ -33,13 +33,31 @@ const Skills = () => {
       title: 'DevOps',
       skills: ['Docker','CI/CD'],
       color: 'from-orange-500 to-red-500'
+    },
+    {
+      title: 'Graphic Designing',
+      skills: [
+        'Brand Visuals',
+        'Marketing Graphics',
+        'Social Media Creatives',
+        'Custom Artwork',
+        'Character & Icon Design',
+        'Creative Visual Storytelling'
+      ],
+      color: 'from-fuchsia-500 to-rose-500'
     }
   ];
 
   const technologies = [
     { name: 'ReactJS', logo: '/logos/react.png', type: 'image' },
     { name: 'Next.js', logo: '/logos/nextjs.png', type: 'image' },
+    { name: 'Python', logo: '/logos/python.gif', type: 'image' },
+    { name: 'MicrosoftAzure', logo: '/logos/microsoft-azure.png', type: 'image' },
+    // { name: 'GHL', logo: '/logos/ghl.png', type: 'image' },
+    { name: 'Pytorch', logo: '/logos/pytorch.png', type: 'image' },
+    { name: 'Figma', logo: '/logos/figma.gif', type: 'image' },
     { name: 'TypeScript', logo: '/logos/typescript.png', type: 'image' },
+    { name: 'Adobe Illustrator', logo: '/logos/illustrator.gif', type: 'image' },
     // { name: 'AWS', logo: '☁️', type: 'emoji' },
     // { name: 'GCP', logo: '🌩️', type: 'emoji' },
     // { name: 'Make', logo: '🔧', type: 'emoji' },

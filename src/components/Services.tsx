@@ -1,12 +1,11 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
-import { Globe, Puzzle, Bot, ArrowRight } from 'lucide-react';
+import { Globe, Puzzle, Bot, ArrowRight, Palette } from 'lucide-react';
 
 const Services = () => {
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, threshold: 0.1 });
+  const isInView = useInView(ref, { once: true, amount: 0.1 });
 
   const services = [
     {
@@ -32,6 +31,21 @@ const Services = () => {
       features: ['Workflow Automation', 'Smart Integration', 'Scalable Solutions', 'Real-time Analytics'],
       gradient: 'from-green-500 to-teal-500',
       glowClass: 'glow-green'
+    },
+    {
+      icon: Palette,
+      title: 'Graphic Designing',
+      description: 'Professional visual designs and custom illustrations that strengthen brand presence and communicate ideas with clarity.',
+      features: [
+        'Brand Visuals',
+        'Marketing Graphics',
+        'Social Media Creatives',
+        'Custom Artwork',
+        'Character & Icon Design',
+        'Creative Visual Storytelling'
+      ],
+      gradient: 'from-fuchsia-500 to-rose-500',
+      glowClass: 'glow'
     }
   ];
 

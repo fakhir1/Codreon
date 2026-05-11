@@ -39,15 +39,15 @@ const Footer = () => {
             <div className="space-y-2">
               <div className="flex items-center gap-3 text-gray-400">
                 <Mail size={16} />
-                <span>hello@codreon.com</span>
+                <span>codreontech@gmail.com</span>
               </div>
               <div className="flex items-center gap-3 text-gray-400">
                 <Phone size={16} />
-                <span>+1 (555) 123-4567</span>
+                <span>+92 3190448775</span>
               </div>
               <div className="flex items-center gap-3 text-gray-400">
                 <MapPin size={16} />
-                <span>San Francisco, CA</span>
+                <span>Pakistan - Bahawalpur</span>
               </div>
             </div>
           </div>

@@ -6,13 +6,13 @@ import { Target, Users, Trophy, Zap } from 'lucide-react';
 
 const About = () => {
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, threshold: 0.1 });
+  const isInView = useInView(ref, { once: true, amount: 0.1 });
 
   const stats = [
-    { icon: Target, label: 'Projects Completed', value: '150+' },
-    { icon: Users, label: 'Happy Clients', value: '80+' },
-    { icon: Trophy, label: 'Years Experience', value: '8+' },
-    { icon: Zap, label: 'Technologies', value: '25+' },
+    { icon: Target, label: 'Projects Completed', value: '50+' },
+    { icon: Users, label: 'Happy Clients', value: '35+' },
+    { icon: Trophy, label: 'Years Experience', value: '5+' },
+    { icon: Zap, label: 'Technologies', value: '20+' },
   ];
 
   return (

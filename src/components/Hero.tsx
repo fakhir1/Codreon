@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight, Play, Code2, Zap } from 'lucide-react';
 
